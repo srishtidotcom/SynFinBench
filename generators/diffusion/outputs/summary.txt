@@ -1,0 +1,24 @@
+===========================
+DIFFUSION BENCHMARK REPORT
+===========================
+
+Training Samples:      5200
+Synthetic Samples:     5200
+Window Length:         30
+
+Mean Difference:       +0.01014938
+Std Difference:        -0.18241139
+
+KS Statistic:          0.040872
+Wasserstein Distance:  0.059487
+MMD:                   6.07797671e-04
+
+Skewness Difference:   +5.074805
+Kurtosis Difference:   -465.856415
+
+RMSE:                  1.548995
+Pearson Correlation:   -0.002086
+
+---
+Interpretation:
+The generated data closely matches the real distribution in terms of first-order statistics. Distribution overlap is good according to the KS statistic. Wasserstein distance indicates low deviation. Limited linear correspondence is observed between real and synthetic samples. Long-range dependence should be inspected using the autocorrelation plots.
