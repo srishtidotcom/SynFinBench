@@ -7,3 +7,5 @@ yfinance
 jupyter
 notebook
 tqdm
+torch
+torchvision
