@@ -1,5 +1,3 @@
 __pycache__/
 *.pyc
-outputs/
-training_log*.txt
 .DS_Store
